@@ -1,0 +1,72 @@
+Begin Object Class=/Script/Engine.Material Name="NewMaterial"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant4Vector Name="MaterialExpressionConstant4Vector_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionNoise Name="MaterialExpressionNoise_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionNoise'"NewMaterial:MaterialExpressionNoise_0"')
+      B=(Expression=MaterialExpressionConstant4Vector'"NewMaterial:MaterialExpressionConstant4Vector_0"')
+      MaterialExpressionEditorX=333
+      MaterialExpressionEditorY=272
+      MaterialExpressionGuid=ADC74C0747294052244CACBAADEA173A
+      Material=Material'"NewMaterial"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=1.000000
+      ParameterName="Metallic"
+      ExpressionGUID=26E0EACC4EE37CF406BE58A18912CBF1
+      MaterialExpressionEditorX=400
+      MaterialExpressionEditorY=400
+      MaterialExpressionGuid=7F6F8B9C43EFF165523C1B96F0AE3FC7
+      Material=Material'"NewMaterial"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      DefaultValue=1.000000
+      ParameterName="Roughness"
+      ExpressionGUID=1F26E6914B26D4780CA6B794377FDF4D
+      MaterialExpressionEditorX=384
+      MaterialExpressionEditorY=496
+      MaterialExpressionGuid=9FB6A09149B0F2A7550B44ADC94BFCB4
+      Material=Material'"NewMaterial"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant4Vector_0"
+      Constant=(R=0.473958,G=0.157986,B=0.430073,A=0.386000)
+      MaterialExpressionEditorX=32
+      MaterialExpressionEditorY=144
+      MaterialExpressionGuid=0B89AB474457226F1B5ABD8634A0B8AC
+      Material=Material'"NewMaterial"'
+   End Object
+   Begin Object Name="MaterialExpressionNoise_0"
+      MaterialExpressionEditorX=26
+      MaterialExpressionEditorY=327
+      MaterialExpressionGuid=6A95427C48FF214AC367C3A54D6DD9D1
+      Material=Material'"NewMaterial"'
+   End Object
+   BaseColor=(Expression=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"')
+   Metallic=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"')
+   Roughness=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"')
+   EditorX=800
+   EditorY=96
+   Expressions(0)=MaterialExpressionConstant4Vector'"MaterialExpressionConstant4Vector_0"'
+   Expressions(1)=MaterialExpressionNoise'"MaterialExpressionNoise_0"'
+   Expressions(2)=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"'
+   Expressions(3)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"'
+   Expressions(4)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"'
+   ParameterGroupData(0)=(GroupName="None")
+   ParameterGroupData(1)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=E86A7F8F4569BEA3A750F284394D7064
+   CachedExpressionData=(Parameters=(Entries[0]=(NameHashes=(440574345582452634,3078550227877033723),ParameterInfos=((Name="Roughness"),(Name="Metallic")),ExpressionGuids=(1F26E6914B26D4780CA6B794377FDF4D,26E0EACC4EE37CF406BE58A18912CBF1),Overrides=(False,False)),ScalarValues=(1.000000,1.000000),ScalarMinMaxValues=((X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000)),ScalarCurveValues=(None,None),ScalarCurveAtlasValues=(None,None)),QualityLevelsUsed=(False,True,False))
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=96FD455A4135CA858C47D0B98629F54A
+End Object
